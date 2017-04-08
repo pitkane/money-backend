@@ -1,0 +1,27 @@
+{
+  "name": "money-backend",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "eslint": "eslint modules"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "nodemon": "^1.11.0",
+    "prettier": "^0.22.0"
+  }
+}
